@@ -1,0 +1,4 @@
+README-dos-dos.md text eol=crlf
+README-dos-unix.md text eol=lf
+README-unix-dos.md text eol=crlf
+README-unix-unix.md text eol=lf
