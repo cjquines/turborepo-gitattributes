@@ -3,6 +3,8 @@
 set -euo pipefail
 
 pnpm install
+pnpm turbo info
+
 pnpm turbo prebuild --filter=app-a --summarize --dry=json
 
 pnpm turbo prune app-a

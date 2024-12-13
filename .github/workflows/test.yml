@@ -11,5 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
-      - run: pnpm turbo info
       - run: ./test.sh
